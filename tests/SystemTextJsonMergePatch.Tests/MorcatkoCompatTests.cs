@@ -1,3 +1,7 @@
+// Test cases adapted from Morcatko.AspNetCore.JsonMergePatch
+// Original: https://github.com/Morcatko/Morcatko.AspNetCore.JsonMergePatch
+// MIT License, Copyright (c) 2018 Ondrej Morsky
+
 using System.Text.Json;
 using Xunit;
 

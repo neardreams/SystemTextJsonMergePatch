@@ -38,6 +38,10 @@ var fields = patch.Operations.Select(op => op.path.TrimStart('/'));
 3. Replace registration: `.AddSystemTextJsonMergePatch()` -> `.AddJsonMergePatch()`
 4. Remove FQN prefixes: `Morcatko.AspNetCore.JsonMergePatch.SystemText.Builders.PatchBuilder<T>` -> `PatchBuilder<T>`
 
+## Acknowledgments
+
+This is a clean-room reimplementation inspired by [Morcatko.AspNetCore.JsonMergePatch](https://github.com/Morcatko/Morcatko.AspNetCore.JsonMergePatch) (MIT License, Copyright (c) 2018 Ondrej Morsky). No source code was copied; the API design was referenced for compatibility. Some test cases were adapted from the original project.
+
 ## About
 
 This project was created entirely by [Claude Code](https://claude.ai/code) (Anthropic Claude Opus 4.6), authored by [neardreams](https://github.com/neardreams).
