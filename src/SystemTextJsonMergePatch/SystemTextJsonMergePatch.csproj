@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>SystemTextJsonMergePatch</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>neardreams</Authors>
+    <Description>RFC 7396 JSON Merge Patch for ASP.NET Core. Pure System.Text.Json, zero Newtonsoft.Json dependency. Drop-in replacement for Morcatko.AspNetCore.JsonMergePatch.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>json;merge-patch;rfc7396;aspnetcore;system-text-json;patch</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
