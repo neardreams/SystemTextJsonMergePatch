@@ -7,9 +7,13 @@
     <Version>1.0.0</Version>
     <Authors>neardreams</Authors>
     <Description>RFC 7396 JSON Merge Patch for ASP.NET Core. Pure System.Text.Json, zero Newtonsoft.Json dependency. Drop-in replacement for Morcatko.AspNetCore.JsonMergePatch.</Description>
+    <Copyright>Copyright (c) 2026 neardreams</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>json;merge-patch;rfc7396;aspnetcore;system-text-json;patch</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/neardreams/SystemTextJsonMergePatch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/neardreams/SystemTextJsonMergePatch</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
