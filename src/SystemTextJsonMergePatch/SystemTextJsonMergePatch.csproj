@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>SystemTextJsonMergePatch</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>neardreams</Authors>
     <Description>RFC 7396 JSON Merge Patch for ASP.NET Core. Pure System.Text.Json, zero Newtonsoft.Json dependency. Drop-in replacement for Morcatko.AspNetCore.JsonMergePatch.</Description>
     <Copyright>Copyright (c) 2026 neardreams</Copyright>
